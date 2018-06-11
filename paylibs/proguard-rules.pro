@@ -38,3 +38,5 @@
 -keep class com.alipay.tscenter.** { *; }
 -keep class com.ta.utdid2.** { *;}
 -keep class com.ut.device.** { *;}
+-keepattributes Signature
+-keep' or '-keepclassmembers
