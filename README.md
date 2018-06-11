@@ -17,12 +17,17 @@ payUtils是一个提供了快速对接支付宝以及微信支付的库
 1. 在项目module下的gradle中添加以下依赖：
 
 仓库：
-```allprojects {
+
+allprojects {
+
 		repositories {
-			...
+		
+		
 			maven { url 'https://jitpack.io' }
+			
 		}
-	}```
+		
+	}
 
 compile 'com.github.w513209188:payUtils:v1.0.0'
 
