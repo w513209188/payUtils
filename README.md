@@ -21,10 +21,7 @@ payUtils是一个提供了快速对接支付宝以及微信支付的库
 allprojects {
 
 		repositories {
-		
-		
 			maven { url 'https://jitpack.io' }
-			
 		}
 		
 	}
