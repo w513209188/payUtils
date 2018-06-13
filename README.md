@@ -29,7 +29,7 @@ allprojects {
 		
 	}
 
-compile 'com.github.w513209188:payUtils:v1.0.0'
+compile 'com.github.w513209188:payUtils:v1.0.4'
 
 
 ### 使用方法   戳这里  ☞ [传送门](https://www.jianshu.com/p/198d40611ade)
