@@ -16,7 +16,7 @@ payUtils是一个两行代码实现微信支付或支付宝支付的支付库。
 
 仓库：maven { url "https://jitpack.io" }
 
- compile 'com.github.w513209188:payUtils:v1.0.4'
+ compile 'com.github.w513209188:payUtils:v1.0.5'
 
 ### 使用介绍   戳这里  ☞ [传送门](https://www.jianshu.com/p/6eed9d843415)
 
