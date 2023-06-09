@@ -22,6 +22,11 @@ public class WxPayConfig {
     private String sign;
     //上下文
     private Activity activity;
+    private String extData;
+
+    public String getExtData() {
+        return extData;
+    }
 
     public String getAppId() {
         return appId;
@@ -63,6 +68,12 @@ public class WxPayConfig {
         private String timestamp;
         private String sign;
         private Activity activity;
+        private String extData;
+
+        public Builder setExtData(String extData) {
+            this.extData = extData;
+            return this;
+        }
 
         public Builder setAppId(String appId) {
             this.appId = appId;
@@ -113,6 +124,7 @@ public class WxPayConfig {
             wxPayConfig.sign=this.sign;
             wxPayConfig.timestamp=this.timestamp;
             wxPayConfig.partnerid=this.partnerid;
+            wxPayConfig.extData=this.extData;
             return wxPayConfig;
         }
     }

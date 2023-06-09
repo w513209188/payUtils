@@ -34,6 +34,7 @@ public class WxPayManager {
         req.nonceStr = wxPayConfig.getNoncestr();
         req.timeStamp = wxPayConfig.getTimestamp();
         req.sign = wxPayConfig.getSign();
+        req.extData=wxPayConfig.getExtData();
         msgApi.sendReq(req);
     }
 }
